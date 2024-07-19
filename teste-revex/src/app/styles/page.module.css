@@ -1,0 +1,134 @@
+.caixaIndividual{
+    background: #4F4F4F;
+    border-radius: 0.5rem;
+    text-align: left;
+    box-sizing: content-box;
+    margin: 1rem;
+  
+    .nomeTitulo{
+      font-size: 1.5rem;
+      text-align: left;
+      padding: 0.1rem 1rem;
+      font-weight: bold;
+    }
+  
+    .boxTitulo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+    }
+  }
+
+  .tituloDesc{     
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .textAreaBox{
+    margin-left: 1rem;
+  }
+
+  .statusBox{
+    border-radius: 0.5rem;
+    text-align: left;
+    box-sizing: content-box;
+    margin-left: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .caixaDesc{
+    background: #F0F0F0;
+    border-radius: 0.5rem;
+    text-align: left;
+    height: 5rem;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0.3rem;
+    color: black;
+    
+    .textoDesc{
+        
+      font-size: 1rem;
+      text-align: left;
+      padding: 0.5rem;
+      color: black;
+    }
+  
+    .boxDesc{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+    }
+  }
+
+  .buttonForm{
+    border: none;
+    background-color: #F0F0F0;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.descIndividual{
+
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.verAtiv{
+  color: #60A0FF;
+}
+
+.containerOculto{
+    display: none;
+}
+
+.containerVisivel{
+    display: block;
+}
+
+.formColab{
+
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: bold;
+
+  .subdivform{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    
+    .labelForm{
+      color: #fff;
+      margin-right: 5rem;
+      margin-top: 2rem;
+      display: block;
+    }
+
+    .inputForm{
+      color: #000;
+      margin-top: 0.5rem;
+      display: block;
+    }
+
+  }
+}
